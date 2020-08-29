@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://textures/light.svg" type="Texture" id=1]
+
+[node name="TorchLight" type="Light2D"]
+position = Vector2( 382.69, 552.569 )
+scale = Vector2( 0.35, 0.35 )
+texture = ExtResource( 1 )
+color = Color( 1, 0.592157, 0.262745, 1 )
+shadow_enabled = true
